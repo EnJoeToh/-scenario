@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>diff between old.txt and new.txt</title>
+	<style>
+      body {
+/*      margin: 1rem;*/
+        margin-left: 2em;
+        font-family: serif;
+      }
+
+      article {
+        width: 60em;
+        max-width: 60em;
+        height: 20rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        writing-mode: vertical-rl;
+        columns: 20rem;
+/*        column-gap: 400px;*/
+
+        column-gap: 40px;
+      }
+
+      h4{
+      	margin-top: 1em;
+      }
+
+      section{
+        margin-right: 1em;
+      }
+
+      div.scene{
+        margin-right: 1em;
+      }
+
+      div.description{
+        margin-top: 1em;
+        text-indent: 1em;
+
+      }
+      div.line {
+        margin-top: 1em;
+        text-indent: -1em;
+      }
+      div.comment {
+      	margin-top: 2em;
+      	color: red;
+      }
+
+      span.del {
+      	background: lightsalmon;
+      	border: thin inset;
+
+      } span.add {
+      	background: lightskyblue;
+      	font-weight: bolder;
+      	border: thin outset;
+      }
+
+      span.before-change {
+      	background: wheat;
+      	border: thin inset;
+      }
+
+      span.after-change {
+      	background: lightgreen;
+      	font-weight: bolder;
+      	border: thin outset;
+      }
+  </style>
+</head>
+<body>
+<article>
+<h4>０１</h4>
+
+<section>
+<div class="scene">■昔のどこか</div>
+<div class="description">村の風景</div>
+<div class="lines">
+<div class="line">ナレーション「むかしむかし、あるところに、おじいさんとおばあさんがすんでいました」</div>
+<div class="line"></span><span class="common">おじいさん「おばあさん、あなたは</span><span class="before-change"><del>川へ</del></span><span class="after-change"><ins>山へ</ins></span><span class="common">洗濯へ行きなさい」</div>
+<div class="line">おばあさん「おじいさん、あなたは</span><span class="before-change"><del>山へ</del></span><span class="after-change"><ins>川へ</ins></span><span class="common">芝刈りに行きなさい」</div>
+<div class="line"></span><span class="common">おじいさん「わかりました」</div>
+<div class="line">おばあさん「わかりました」</div>
+</div>
+<div class="comment">コメント</div>
+</section>
+
+<section>
+<div class="scene">■現在のどこか地方都市</div>
+<div class="description">都市の風景</div>
+<div class="description">車のクラクションの音など</div>
+<div class="lines">
+<div class="line"></span><span class="common">ナレーション「現在現在、あるところに、</span><span class="before-change"><del>おじいさんとおばあさんがすんでいました</del></span><span class="after-change"><ins>おじいさんがすんでいました</ins></span><span class="common">」</div>
+<div class="line"></span><span class="common">おじいさん「おばあさん、あなたは川へ洗濯へ行きなさい」</div>
+<div class="line"></span><span class="del"><del>おばあさん「おじいさん、あなたは山へ芝刈りに行きなさい」</div>
+<div class="line"></del></span><span class="common">おじいさん「わかりました」</div>
+<div class="line"></span><span class="del"><del>おばあさん「わかりました」</div>
+</div>
+<div class="comment">コメント</div>
+</section>
+
+<section>
+<div class="scene">■未来のどこかの星</div>
+<div class="description">軌道上の宇宙ステーション</div>
+<div class="lines">
+<div class="line"></span><span class="common">ナレーション「未来未来、あるところに、</span><span class="before-change"><del>おじいさんとおばあさんがすんでいました</del></span><span class="after-change"><ins>おじいさんとおばあさんとおばあさんがすんでいました</ins></span><span class="common">」</div>
+<div class="line"></span><span class="common">おじいさん「おばあさん、あなたは川へ洗濯へ行きなさい。おばあさん、あなたは川へ洗濯へ行きなさい。おばあさん、あなたは川へ洗濯へ行きなさい」</div>
+<div class="line"></span><span class="common">おばあさん</span><span class="add"><ins>１</ins></span><span class="common">「おじいさん、あなたは山へ芝刈りに行きなさい。おじいさん、あなたは山へ芝刈りに行きなさい。おじいさん、あなたは山へ芝刈りに行きなさい」</div>
+<div class="line"></span><span class="add"><ins>おばあさん２「おじいさん、あなたは山へ芝刈りに行きなさい。おじいさん、あなたは山へ芝刈りに行きなさい。おじいさん、あなたは山へ芝刈りに行きなさい」</div>
+</div>
+<div class="description"></span><span class="add"><ins>木製の</ins></span><span class="common">エアロックの扉をあけつつ</span><span class="del"><del></div>
+<div class="comment">エアロックについて詳しく</del></span><span class="common"></div>
+<div class="lines">
+<div class="line"></span><span class="common">おじいさん「わかりました」</div>
+<div class="line"></span><span class="common">おばあさん</span><span class="add"><ins>１「わかりました」</div>
+<div class="line">おばあさん２</ins></span><span class="common">「わかりました」</div>
+</div>
+<div class="comment">コメント</div>
+</section>
+
+<section>
+<div class="scene">■過去と現在と未来の交わる土地</div>
+<div class="comment">なんかいろいろ</div>
+</section>
+
+</span></div>
+</article>
+</body>
+</html>
