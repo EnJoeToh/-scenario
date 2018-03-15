@@ -23,3 +23,6 @@ diff.html
 差分をとる
 
 ```ruby difference.ruby old.txt new.txt > diff.html```
+
+## License
+modified BSD style license
