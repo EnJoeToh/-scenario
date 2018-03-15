@@ -28,11 +28,11 @@ diff.html
 
 整形する
 
-```ruby genetrate.ruby new.txt > new.html```
+```ruby genetrate.rb new.txt > new.html```
 
 差分をとる
 
-```ruby difference.ruby old.txt new.txt > diff.html```
+```ruby difference.rb old.txt new.txt > diff.html```
 
 ## License
 modified BSD style license
