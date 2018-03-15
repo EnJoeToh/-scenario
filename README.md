@@ -6,6 +6,7 @@
 ## Demo
 
 new.html
+<img width="1083" alt="new" src="https://user-images.githubusercontent.com/8622918/37465127-b274f286-289d-11e8-8c64-286597ccb69e.png">
 
 diff.html
 
