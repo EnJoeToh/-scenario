@@ -3,18 +3,18 @@
 - 脚本でインデントを入れるのに疲れた
 - 差分も取りたい
 
-##Demo
+## Demo
 
 new.html
 
 diff.html
 
-##Requirement
+## Requirement
 
 - ruby
     - DocDiff
 
-##Usage
+## Usage
 
 整形する
 
