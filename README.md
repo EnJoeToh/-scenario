@@ -18,6 +18,14 @@ diff.html
 
 ## Usage
 
+- ★: タイトル
+
+- ■: シーン
+
+- ＠: 描写
+
+- ＃: コメント
+
 整形する
 
 ```ruby genetrate.ruby new.txt > new.html```
